@@ -1,4 +1,4 @@
-﻿Imports Microsoft.Office.Interop
+Imports Microsoft.Office.Interop
 Imports System.Threading
 
 Public Class frm_index
