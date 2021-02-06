@@ -26,7 +26,7 @@ namespace BumKUtilities {
 	using namespace System::Drawing;
 
 	/// <summary>
-	/// Сводка для Index
+	/// Г‘ГўГ®Г¤ГЄГ  Г¤Г«Гї Index
 	/// </summary>
 	public ref class Index : public System::Windows::Forms::Form
 	{
@@ -35,13 +35,13 @@ namespace BumKUtilities {
 		{
 			InitializeComponent();
 			//
-			//TODO: добавьте код конструктора
+			//TODO: Г¤Г®ГЎГ ГўГјГІГҐ ГЄГ®Г¤ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г 
 			//
 		}
 
 	protected:
 		/// <summary>
-		/// Освободить все используемые ресурсы.
+		/// ГЋГ±ГўГ®ГЎГ®Г¤ГЁГІГј ГўГ±ГҐ ГЁГ±ГЇГ®Г«ГјГ§ГіГҐГ¬Г»ГҐ Г°ГҐГ±ГіГ°Г±Г».
 		/// </summary>
 		~Index()
 		{
@@ -195,14 +195,14 @@ private: System::Windows::Forms::OpenFileDialog^ openFileDialogGDB;
 
 	private:
 		/// <summary>
-		/// Обязательная переменная конструктора.
+		/// ГЋГЎГїГ§Г ГІГҐГ«ГјГ­Г Гї ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г Гї ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г .
 		/// </summary>
 		System::ComponentModel::Container ^components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Требуемый метод для поддержки конструктора — не изменяйте 
-		/// содержимое этого метода с помощью редактора кода.
+		/// Г’Г°ГҐГЎГіГҐГ¬Г»Г© Г¬ГҐГІГ®Г¤ Г¤Г«Гї ГЇГ®Г¤Г¤ГҐГ°Г¦ГЄГЁ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г  вЂ” Г­ГҐ ГЁГ§Г¬ГҐГ­ГїГ©ГІГҐ 
+		/// Г±Г®Г¤ГҐГ°Г¦ГЁГ¬Г®ГҐ ГЅГІГ®ГЈГ® Г¬ГҐГІГ®Г¤Г  Г± ГЇГ®Г¬Г®Г№ГјГѕ Г°ГҐГ¤Г ГЄГІГ®Г°Г  ГЄГ®Г¤Г .
 		/// </summary>
 		void InitializeComponent(void)
 		{
@@ -317,7 +317,7 @@ private: System::Windows::Forms::OpenFileDialog^ openFileDialogGDB;
 			this->label_program_name->Name = L"label_program_name";
 			this->label_program_name->Size = System::Drawing::Size(545, 25);
 			this->label_program_name->TabIndex = 0;
-			this->label_program_name->Text = L"Дополнительные утилиты для работы с Frontol 5";
+			this->label_program_name->Text = L"Г„Г®ГЇГ®Г«Г­ГЁГІГҐГ«ГјГ­Г»ГҐ ГіГІГЁГ«ГЁГІГ» Г¤Г«Гї Г°Г ГЎГ®ГІГ» Г± Frontol 5";
 			// 
 			// panel1
 			// 
@@ -343,7 +343,7 @@ private: System::Windows::Forms::OpenFileDialog^ openFileDialogGDB;
 			this->journal_clear->Name = L"journal_clear";
 			this->journal_clear->Size = System::Drawing::Size(114, 23);
 			this->journal_clear->TabIndex = 4;
-			this->journal_clear->Text = L"Очистить журнал";
+			this->journal_clear->Text = L"ГЋГ·ГЁГ±ГІГЁГІГј Г¦ГіГ°Г­Г Г«";
 			this->journal_clear->UseVisualStyleBackColor = false;
 			this->journal_clear->Click += gcnew System::EventHandler(this, &Index::journal_clear_Click);
 			// 
@@ -358,7 +358,7 @@ private: System::Windows::Forms::OpenFileDialog^ openFileDialogGDB;
 			this->show_hide_journal->Name = L"show_hide_journal";
 			this->show_hide_journal->Size = System::Drawing::Size(114, 23);
 			this->show_hide_journal->TabIndex = 3;
-			this->show_hide_journal->Text = L"Скрыть журнал";
+			this->show_hide_journal->Text = L"Г‘ГЄГ°Г»ГІГј Г¦ГіГ°Г­Г Г«";
 			this->show_hide_journal->UseVisualStyleBackColor = false;
 			this->show_hide_journal->Click += gcnew System::EventHandler(this, &Index::show_hide_journal_Click);
 			// 
@@ -449,7 +449,7 @@ private: System::Windows::Forms::OpenFileDialog^ openFileDialogGDB;
 			this->tabPage1->Padding = System::Windows::Forms::Padding(3);
 			this->tabPage1->Size = System::Drawing::Size(455, 469);
 			this->tabPage1->TabIndex = 0;
-			this->tabPage1->Text = L"Исправление ошибок";
+			this->tabPage1->Text = L"Г€Г±ГЇГ°Г ГўГ«ГҐГ­ГЁГҐ Г®ГёГЁГЎГ®ГЄ";
 			this->tabPage1->UseVisualStyleBackColor = true;
 			// 
 			// fix_errors_uncheck_all
@@ -465,7 +465,7 @@ private: System::Windows::Forms::OpenFileDialog^ openFileDialogGDB;
 			this->fix_errors_uncheck_all->Name = L"fix_errors_uncheck_all";
 			this->fix_errors_uncheck_all->Size = System::Drawing::Size(92, 23);
 			this->fix_errors_uncheck_all->TabIndex = 12;
-			this->fix_errors_uncheck_all->Text = L"Убрать все";
+			this->fix_errors_uncheck_all->Text = L"Г“ГЎГ°Г ГІГј ГўГ±ГҐ";
 			this->fix_errors_uncheck_all->UseVisualStyleBackColor = false;
 			this->fix_errors_uncheck_all->Click += gcnew System::EventHandler(this, &Index::fix_errors_uncheck_all_Click);
 			// 
@@ -481,7 +481,7 @@ private: System::Windows::Forms::OpenFileDialog^ openFileDialogGDB;
 			this->fix_errors_check_all->Name = L"fix_errors_check_all";
 			this->fix_errors_check_all->Size = System::Drawing::Size(92, 23);
 			this->fix_errors_check_all->TabIndex = 11;
-			this->fix_errors_check_all->Text = L"Выбрать все";
+			this->fix_errors_check_all->Text = L"Г‚Г»ГЎГ°Г ГІГј ГўГ±ГҐ";
 			this->fix_errors_check_all->UseVisualStyleBackColor = false;
 			this->fix_errors_check_all->Click += gcnew System::EventHandler(this, &Index::fix_errors_check_all_Click);
 			// 
@@ -509,7 +509,7 @@ private: System::Windows::Forms::OpenFileDialog^ openFileDialogGDB;
 			this->fix_errors_copy->Name = L"fix_errors_copy";
 			this->fix_errors_copy->Size = System::Drawing::Size(113, 17);
 			this->fix_errors_copy->TabIndex = 9;
-			this->fix_errors_copy->Text = L"Создавать копии";
+			this->fix_errors_copy->Text = L"Г‘Г®Г§Г¤Г ГўГ ГІГј ГЄГ®ГЇГЁГЁ";
 			this->fix_errors_copy->UseVisualStyleBackColor = true;
 			this->fix_errors_copy->CheckedChanged += gcnew System::EventHandler(this, &Index::fix_errors_copy_CheckedChanged);
 			// 
@@ -523,7 +523,7 @@ private: System::Windows::Forms::OpenFileDialog^ openFileDialogGDB;
 			this->fix_errors_run->Name = L"fix_errors_run";
 			this->fix_errors_run->Size = System::Drawing::Size(75, 23);
 			this->fix_errors_run->TabIndex = 7;
-			this->fix_errors_run->Text = L"Запустить";
+			this->fix_errors_run->Text = L"Г‡Г ГЇГіГ±ГІГЁГІГј";
 			this->fix_errors_run->UseVisualStyleBackColor = false;
 			this->fix_errors_run->Click += gcnew System::EventHandler(this, &Index::fix_errors_run_Click);
 			// 
@@ -538,7 +538,7 @@ private: System::Windows::Forms::OpenFileDialog^ openFileDialogGDB;
 			this->fix_errors_appy->Name = L"fix_errors_appy";
 			this->fix_errors_appy->Size = System::Drawing::Size(75, 23);
 			this->fix_errors_appy->TabIndex = 6;
-			this->fix_errors_appy->Text = L"Применить";
+			this->fix_errors_appy->Text = L"ГЏГ°ГЁГ¬ГҐГ­ГЁГІГј";
 			this->fix_errors_appy->UseVisualStyleBackColor = false;
 			this->fix_errors_appy->Click += gcnew System::EventHandler(this, &Index::fix_errors_appy_Click);
 			// 
@@ -561,7 +561,7 @@ private: System::Windows::Forms::OpenFileDialog^ openFileDialogGDB;
 			this->fix_errors_label_filename->Name = L"fix_errors_label_filename";
 			this->fix_errors_label_filename->Size = System::Drawing::Size(95, 13);
 			this->fix_errors_label_filename->TabIndex = 4;
-			this->fix_errors_label_filename->Text = L"Название файла:";
+			this->fix_errors_label_filename->Text = L"ГЌГ Г§ГўГ Г­ГЁГҐ ГґГ Г©Г«Г :";
 			// 
 			// fix_errors_delete
 			// 
@@ -575,7 +575,7 @@ private: System::Windows::Forms::OpenFileDialog^ openFileDialogGDB;
 			this->fix_errors_delete->Name = L"fix_errors_delete";
 			this->fix_errors_delete->Size = System::Drawing::Size(75, 23);
 			this->fix_errors_delete->TabIndex = 3;
-			this->fix_errors_delete->Text = L"Удалить";
+			this->fix_errors_delete->Text = L"Г“Г¤Г Г«ГЁГІГј";
 			this->fix_errors_delete->UseVisualStyleBackColor = false;
 			this->fix_errors_delete->Click += gcnew System::EventHandler(this, &Index::fix_errors_delete_Click);
 			// 
@@ -591,7 +591,7 @@ private: System::Windows::Forms::OpenFileDialog^ openFileDialogGDB;
 			this->fix_errors_add->Name = L"fix_errors_add";
 			this->fix_errors_add->Size = System::Drawing::Size(75, 23);
 			this->fix_errors_add->TabIndex = 2;
-			this->fix_errors_add->Text = L"Добавить";
+			this->fix_errors_add->Text = L"Г„Г®ГЎГ ГўГЁГІГј";
 			this->fix_errors_add->UseVisualStyleBackColor = false;
 			this->fix_errors_add->Click += gcnew System::EventHandler(this, &Index::fix_errors_add_Click);
 			// 
@@ -602,7 +602,7 @@ private: System::Windows::Forms::OpenFileDialog^ openFileDialogGDB;
 			this->fix_errors_label_files->Name = L"fix_errors_label_files";
 			this->fix_errors_label_files->Size = System::Drawing::Size(80, 13);
 			this->fix_errors_label_files->TabIndex = 1;
-			this->fix_errors_label_files->Text = L"Список папок:";
+			this->fix_errors_label_files->Text = L"Г‘ГЇГЁГ±Г®ГЄ ГЇГ ГЇГ®ГЄ:";
 			// 
 			// tabPage2
 			// 
@@ -611,7 +611,7 @@ private: System::Windows::Forms::OpenFileDialog^ openFileDialogGDB;
 			this->tabPage2->Name = L"tabPage2";
 			this->tabPage2->Size = System::Drawing::Size(455, 469);
 			this->tabPage2->TabIndex = 1;
-			this->tabPage2->Text = L"Работа с БД";
+			this->tabPage2->Text = L"ГђГ ГЎГ®ГІГ  Г± ГЃГ„";
 			this->tabPage2->UseVisualStyleBackColor = true;
 			// 
 			// panel3
@@ -669,7 +669,7 @@ private: System::Windows::Forms::OpenFileDialog^ openFileDialogGDB;
 			this->groupBox2->Size = System::Drawing::Size(411, 196);
 			this->groupBox2->TabIndex = 25;
 			this->groupBox2->TabStop = false;
-			this->groupBox2->Text = L"Обновление цен";
+			this->groupBox2->Text = L"ГЋГЎГ­Г®ГўГ«ГҐГ­ГЁГҐ Г¶ГҐГ­";
 			// 
 			// button25
 			// 
@@ -835,7 +835,7 @@ private: System::Windows::Forms::OpenFileDialog^ openFileDialogGDB;
 			this->groupBox1->Size = System::Drawing::Size(411, 196);
 			this->groupBox1->TabIndex = 24;
 			this->groupBox1->TabStop = false;
-			this->groupBox1->Text = L"Добавление клиентов";
+			this->groupBox1->Text = L"Г„Г®ГЎГ ГўГ«ГҐГ­ГЁГҐ ГЄГ«ГЁГҐГ­ГІГ®Гў";
 			// 
 			// button13
 			// 
@@ -999,27 +999,27 @@ private: System::Windows::Forms::OpenFileDialog^ openFileDialogGDB;
 			// description
 			// 
 			this->description->AutoSizeMode = System::Windows::Forms::DataGridViewAutoSizeColumnMode::AllCells;
-			this->description->HeaderText = L"Описание";
+			this->description->HeaderText = L"ГЋГЇГЁГ±Г Г­ГЁГҐ";
 			this->description->Name = L"description";
 			this->description->Width = 82;
 			// 
 			// path
 			// 
 			this->path->AutoSizeMode = System::Windows::Forms::DataGridViewAutoSizeColumnMode::Fill;
-			this->path->HeaderText = L"Полный путь";
+			this->path->HeaderText = L"ГЏГ®Г«Г­Г»Г© ГЇГіГІГј";
 			this->path->Name = L"path";
 			// 
 			// username
 			// 
 			this->username->AutoSizeMode = System::Windows::Forms::DataGridViewAutoSizeColumnMode::AllCells;
-			this->username->HeaderText = L"Пользователь";
+			this->username->HeaderText = L"ГЏГ®Г«ГјГ§Г®ГўГ ГІГҐГ«Гј";
 			this->username->Name = L"username";
 			this->username->Width = 105;
 			// 
 			// password
 			// 
 			this->password->AutoSizeMode = System::Windows::Forms::DataGridViewAutoSizeColumnMode::AllCells;
-			this->password->HeaderText = L"Пароль";
+			this->password->HeaderText = L"ГЏГ Г°Г®Г«Гј";
 			this->password->Name = L"password";
 			this->password->Width = 70;
 			// 
@@ -1034,7 +1034,7 @@ private: System::Windows::Forms::OpenFileDialog^ openFileDialogGDB;
 			this->db_appy->Name = L"db_appy";
 			this->db_appy->Size = System::Drawing::Size(75, 23);
 			this->db_appy->TabIndex = 21;
-			this->db_appy->Text = L"Применить";
+			this->db_appy->Text = L"ГЏГ°ГЁГ¬ГҐГ­ГЁГІГј";
 			this->db_appy->UseVisualStyleBackColor = false;
 			this->db_appy->Click += gcnew System::EventHandler(this, &Index::db_appy_Click);
 			// 
@@ -1054,7 +1054,7 @@ private: System::Windows::Forms::OpenFileDialog^ openFileDialogGDB;
 			this->label4->Name = L"label4";
 			this->label4->Size = System::Drawing::Size(125, 13);
 			this->label4->TabIndex = 19;
-			this->label4->Text = L"Полный путь до файла:";
+			this->label4->Text = L"ГЏГ®Г«Г­Г»Г© ГЇГіГІГј Г¤Г® ГґГ Г©Г«Г :";
 			// 
 			// db_delete
 			// 
@@ -1068,7 +1068,7 @@ private: System::Windows::Forms::OpenFileDialog^ openFileDialogGDB;
 			this->db_delete->Name = L"db_delete";
 			this->db_delete->Size = System::Drawing::Size(75, 23);
 			this->db_delete->TabIndex = 18;
-			this->db_delete->Text = L"Удалить";
+			this->db_delete->Text = L"Г“Г¤Г Г«ГЁГІГј";
 			this->db_delete->UseVisualStyleBackColor = false;
 			this->db_delete->Click += gcnew System::EventHandler(this, &Index::db_delete_Click);
 			// 
@@ -1084,7 +1084,7 @@ private: System::Windows::Forms::OpenFileDialog^ openFileDialogGDB;
 			this->db_add->Name = L"db_add";
 			this->db_add->Size = System::Drawing::Size(75, 23);
 			this->db_add->TabIndex = 17;
-			this->db_add->Text = L"Добавить";
+			this->db_add->Text = L"Г„Г®ГЎГ ГўГЁГІГј";
 			this->db_add->UseVisualStyleBackColor = false;
 			this->db_add->Click += gcnew System::EventHandler(this, &Index::db_add_Click);
 			// 
@@ -1101,7 +1101,7 @@ private: System::Windows::Forms::OpenFileDialog^ openFileDialogGDB;
 			this->db_uncheck_all->Name = L"db_uncheck_all";
 			this->db_uncheck_all->Size = System::Drawing::Size(92, 23);
 			this->db_uncheck_all->TabIndex = 16;
-			this->db_uncheck_all->Text = L"Убрать все";
+			this->db_uncheck_all->Text = L"Г“ГЎГ°Г ГІГј ГўГ±ГҐ";
 			this->db_uncheck_all->UseVisualStyleBackColor = false;
 			this->db_uncheck_all->Click += gcnew System::EventHandler(this, &Index::db_uncheck_all_Click);
 			// 
@@ -1117,7 +1117,7 @@ private: System::Windows::Forms::OpenFileDialog^ openFileDialogGDB;
 			this->db_check_all->Name = L"db_check_all";
 			this->db_check_all->Size = System::Drawing::Size(92, 23);
 			this->db_check_all->TabIndex = 15;
-			this->db_check_all->Text = L"Выбрать все";
+			this->db_check_all->Text = L"Г‚Г»ГЎГ°Г ГІГј ГўГ±ГҐ";
 			this->db_check_all->UseVisualStyleBackColor = false;
 			this->db_check_all->Click += gcnew System::EventHandler(this, &Index::db_check_all_Click);
 			// 
@@ -1128,7 +1128,7 @@ private: System::Windows::Forms::OpenFileDialog^ openFileDialogGDB;
 			this->label3->Name = L"label3";
 			this->label3->Size = System::Drawing::Size(112, 13);
 			this->label3->TabIndex = 13;
-			this->label3->Text = L"Список путей до БД:";
+			this->label3->Text = L"Г‘ГЇГЁГ±Г®ГЄ ГЇГіГІГҐГ© Г¤Г® ГЃГ„:";
 			// 
 			// db_client_send_request
 			// 
@@ -1138,7 +1138,7 @@ private: System::Windows::Forms::OpenFileDialog^ openFileDialogGDB;
 			this->db_client_send_request->Name = L"db_client_send_request";
 			this->db_client_send_request->Size = System::Drawing::Size(142, 29);
 			this->db_client_send_request->TabIndex = 9;
-			this->db_client_send_request->Text = L"Отправить запрос";
+			this->db_client_send_request->Text = L"ГЋГІГЇГ°Г ГўГЁГІГј Г§Г ГЇГ°Г®Г±";
 			this->db_client_send_request->UseVisualStyleBackColor = true;
 			this->db_client_send_request->Click += gcnew System::EventHandler(this, &Index::db_client_send_request_Click);
 			// 
@@ -1150,7 +1150,7 @@ private: System::Windows::Forms::OpenFileDialog^ openFileDialogGDB;
 			this->db_card_send_request->Name = L"db_card_send_request";
 			this->db_card_send_request->Size = System::Drawing::Size(142, 29);
 			this->db_card_send_request->TabIndex = 8;
-			this->db_card_send_request->Text = L"Отправить запрос";
+			this->db_card_send_request->Text = L"ГЋГІГЇГ°Г ГўГЁГІГј Г§Г ГЇГ°Г®Г±";
 			this->db_card_send_request->UseVisualStyleBackColor = true;
 			this->db_card_send_request->Click += gcnew System::EventHandler(this, &Index::db_card_send_request_Click);
 			// 
@@ -1247,14 +1247,14 @@ private: System::Windows::Forms::OpenFileDialog^ openFileDialogGDB;
 			// client_old
 			// 
 			this->client_old->AutoSizeMode = System::Windows::Forms::DataGridViewAutoSizeColumnMode::Fill;
-			this->client_old->HeaderText = L"Старый";
+			this->client_old->HeaderText = L"Г‘ГІГ Г°Г»Г©";
 			this->client_old->Name = L"client_old";
 			this->client_old->Resizable = System::Windows::Forms::DataGridViewTriState::False;
 			// 
 			// client_new
 			// 
 			this->client_new->AutoSizeMode = System::Windows::Forms::DataGridViewAutoSizeColumnMode::Fill;
-			this->client_new->HeaderText = L"Новый";
+			this->client_new->HeaderText = L"ГЌГ®ГўГ»Г©";
 			this->client_new->Name = L"client_new";
 			this->client_new->Resizable = System::Windows::Forms::DataGridViewTriState::False;
 			// 
@@ -1265,7 +1265,7 @@ private: System::Windows::Forms::OpenFileDialog^ openFileDialogGDB;
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(151, 13);
 			this->label2->TabIndex = 2;
-			this->label2->Text = L"Замена табельного номера:";
+			this->label2->Text = L"Г‡Г Г¬ГҐГ­Г  ГІГ ГЎГҐГ«ГјГ­Г®ГЈГ® Г­Г®Г¬ГҐГ°Г :";
 			// 
 			// db_dataGridView_card
 			// 
@@ -1288,14 +1288,14 @@ private: System::Windows::Forms::OpenFileDialog^ openFileDialogGDB;
 			// card_old
 			// 
 			this->card_old->AutoSizeMode = System::Windows::Forms::DataGridViewAutoSizeColumnMode::Fill;
-			this->card_old->HeaderText = L"Старый";
+			this->card_old->HeaderText = L"Г‘ГІГ Г°Г»Г©";
 			this->card_old->Name = L"card_old";
 			this->card_old->Resizable = System::Windows::Forms::DataGridViewTriState::False;
 			// 
 			// card_new
 			// 
 			this->card_new->AutoSizeMode = System::Windows::Forms::DataGridViewAutoSizeColumnMode::Fill;
-			this->card_new->HeaderText = L"Новый";
+			this->card_new->HeaderText = L"ГЌГ®ГўГ»Г©";
 			this->card_new->Name = L"card_new";
 			this->card_new->Resizable = System::Windows::Forms::DataGridViewTriState::False;
 			// 
@@ -1306,7 +1306,7 @@ private: System::Windows::Forms::OpenFileDialog^ openFileDialogGDB;
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(99, 13);
 			this->label1->TabIndex = 0;
-			this->label1->Text = L"Замена пропуска:";
+			this->label1->Text = L"Г‡Г Г¬ГҐГ­Г  ГЇГ°Г®ГЇГіГ±ГЄГ :";
 			// 
 			// splitContainer1
 			// 
@@ -1347,14 +1347,14 @@ private: System::Windows::Forms::OpenFileDialog^ openFileDialogGDB;
 			this->Consol->ScrollBars = System::Windows::Forms::ScrollBars::Vertical;
 			this->Consol->Size = System::Drawing::Size(456, 496);
 			this->Consol->TabIndex = 0;
-			this->Consol->Text = L"Добро пожаловать!  Здесь отображается история операций.";
+			this->Consol->Text = L"Г„Г®ГЎГ°Г® ГЇГ®Г¦Г Г«Г®ГўГ ГІГј!  Г‡Г¤ГҐГ±Гј Г®ГІГ®ГЎГ°Г Г¦Г ГҐГІГ±Гї ГЁГ±ГІГ®Г°ГЁГї Г®ГЇГҐГ°Г Г¶ГЁГ©.";
 			// 
 			// openFileDialogGDB
 			// 
 			this->openFileDialogGDB->FileName = L"openFileDialogGDB";
-			this->openFileDialogGDB->Filter = L"Firebird база данных (*.GDB)|*GDB|Все файлы|*.*";
+			this->openFileDialogGDB->Filter = L"Firebird ГЎГ Г§Г  Г¤Г Г­Г­Г»Гµ (*.GDB)|*GDB|Г‚Г±ГҐ ГґГ Г©Г«Г»|*.*";
 			this->openFileDialogGDB->RestoreDirectory = true;
-			this->openFileDialogGDB->Title = L"Выберите базу данных Firebird";
+			this->openFileDialogGDB->Title = L"Г‚Г»ГЎГҐГ°ГЁГІГҐ ГЎГ Г§Гі Г¤Г Г­Г­Г»Гµ Firebird";
 			// 
 			// Index
 			// 
@@ -1368,7 +1368,7 @@ private: System::Windows::Forms::OpenFileDialog^ openFileDialogGDB;
 			this->Controls->Add(this->panel1);
 			this->Name = L"Index";
 			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
-			this->Text = L"Дополнительные утилиты Frontol 5";
+			this->Text = L"Г„Г®ГЇГ®Г«Г­ГЁГІГҐГ«ГјГ­Г»ГҐ ГіГІГЁГ«ГЁГІГ» Frontol 5";
 			this->FormClosed += gcnew System::Windows::Forms::FormClosedEventHandler(this, &Index::Index_FormClosed);
 			this->Load += gcnew System::EventHandler(this, &Index::Index_Load);
 			this->Shown += gcnew System::EventHandler(this, &Index::Index_Shown);
@@ -1506,13 +1506,13 @@ private: System::Windows::Forms::OpenFileDialog^ openFileDialogGDB;
 						if (CutText(setting_value, 0, setting_value.size() - 1) == "show")
 						{
 							splitContainer1->Panel2Collapsed = false;
-							show_hide_journal->Text = "Скрыть журнал";
+							show_hide_journal->Text = "Г‘ГЄГ°Г»ГІГј Г¦ГіГ°Г­Г Г«";
 							journal_clear->Visible = true;
 						}
 						else
 						{
 							splitContainer1->Panel2Collapsed = true;
-							show_hide_journal->Text = "Показать журнал";
+							show_hide_journal->Text = "ГЏГ®ГЄГ Г§Г ГІГј Г¦ГіГ°Г­Г Г«";
 							journal_clear->Visible = false;
 						}
 					}
@@ -1709,7 +1709,7 @@ private: System::Windows::Forms::OpenFileDialog^ openFileDialogGDB;
 			}
 		else
 		{
-			MessageBox::Show("Файл настроек не найден или повреждён.", "Ошибка чтения файла", MessageBoxButtons::RetryCancel, MessageBoxIcon::Error);
+			MessageBox::Show("Г”Г Г©Г« Г­Г Г±ГІГ°Г®ГҐГЄ Г­ГҐ Г­Г Г©Г¤ГҐГ­ ГЁГ«ГЁ ГЇГ®ГўГ°ГҐГ¦Г¤ВёГ­.", "ГЋГёГЁГЎГЄГ  Г·ГІГҐГ­ГЁГї ГґГ Г©Г«Г ", MessageBoxButtons::RetryCancel, MessageBoxIcon::Error);
 		}
 		filein.close();
 		db_dataGridView_card->RowHeadersVisible = false;
@@ -1748,7 +1748,7 @@ private: System::Void Index_FormClosed(System::Object^ sender, System::Windows::
 	}
 	else
 	{
-		MessageBox::Show("Файл настроек не найден или повреждён.", "Ошибка чтения файла", MessageBoxButtons::RetryCancel, MessageBoxIcon::Error);
+		MessageBox::Show("Г”Г Г©Г« Г­Г Г±ГІГ°Г®ГҐГЄ Г­ГҐ Г­Г Г©Г¤ГҐГ­ ГЁГ«ГЁ ГЇГ®ГўГ°ГҐГ¦Г¤ВёГ­.", "ГЋГёГЁГЎГЄГ  Г·ГІГҐГ­ГЁГї ГґГ Г©Г«Г ", MessageBoxButtons::RetryCancel, MessageBoxIcon::Error);
 	}
 	filein.close();
 	filein.open(CurDir + "settings.ini");
@@ -1798,7 +1798,7 @@ private: System::Void Index_FormClosed(System::Object^ sender, System::Windows::
 				}
 				if (setting_type == "journal_state")
 				{
-					if (show_hide_journal->Text == "Скрыть журнал")
+					if (show_hide_journal->Text == "Г‘ГЄГ°Г»ГІГј Г¦ГіГ°Г­Г Г«")
 					{
 						settings[k] = ".journal_state=show;";
 					}
@@ -1845,7 +1845,7 @@ private: System::Void Index_FormClosed(System::Object^ sender, System::Windows::
 	}
 	else
 	{
-		MessageBox::Show("Файл настроек не найден или повреждён.", "Ошибка чтения файла", MessageBoxButtons::RetryCancel, MessageBoxIcon::Error);
+		MessageBox::Show("Г”Г Г©Г« Г­Г Г±ГІГ°Г®ГҐГЄ Г­ГҐ Г­Г Г©Г¤ГҐГ­ ГЁГ«ГЁ ГЇГ®ГўГ°ГҐГ¦Г¤ВёГ­.", "ГЋГёГЁГЎГЄГ  Г·ГІГҐГ­ГЁГї ГґГ Г©Г«Г ", MessageBoxButtons::RetryCancel, MessageBoxIcon::Error);
 	}
 	filein.close();
 	std::ofstream fileout(CurDir + "settings.ini");
@@ -1858,7 +1858,7 @@ private: System::Void Index_FormClosed(System::Object^ sender, System::Windows::
 	}
 	else
 	{
-		MessageBox::Show("Файл настроек не найден или повреждён.", "Ошибка чтения файла", MessageBoxButtons::RetryCancel, MessageBoxIcon::Error);
+		MessageBox::Show("Г”Г Г©Г« Г­Г Г±ГІГ°Г®ГҐГЄ Г­ГҐ Г­Г Г©Г¤ГҐГ­ ГЁГ«ГЁ ГЇГ®ГўГ°ГҐГ¦Г¤ВёГ­.", "ГЋГёГЁГЎГЄГ  Г·ГІГҐГ­ГЁГї ГґГ Г©Г«Г ", MessageBoxButtons::RetryCancel, MessageBoxIcon::Error);
 	}
 	fileout.close();
 	delete[] settings;
@@ -1919,7 +1919,7 @@ private: System::Void fix_errors_appy_Click(System::Object^ sender, System::Even
 	}
 	else
 	{
-		MessageBox::Show("Файл настроек не найден или повреждён.", "Ошибка чтения файла", MessageBoxButtons::RetryCancel, MessageBoxIcon::Error);
+		MessageBox::Show("Г”Г Г©Г« Г­Г Г±ГІГ°Г®ГҐГЄ Г­ГҐ Г­Г Г©Г¤ГҐГ­ ГЁГ«ГЁ ГЇГ®ГўГ°ГҐГ¦Г¤ВёГ­.", "ГЋГёГЁГЎГЄГ  Г·ГІГҐГ­ГЁГї ГґГ Г©Г«Г ", MessageBoxButtons::RetryCancel, MessageBoxIcon::Error);
 	}
 	filein.close();
 	filein.open(CurDir + "settings.ini");
@@ -1987,7 +1987,7 @@ private: System::Void fix_errors_appy_Click(System::Object^ sender, System::Even
 	}
 	else
 	{
-		MessageBox::Show("Файл настроек не найден или повреждён.", "Ошибка чтения файла", MessageBoxButtons::RetryCancel, MessageBoxIcon::Error);
+		MessageBox::Show("Г”Г Г©Г« Г­Г Г±ГІГ°Г®ГҐГЄ Г­ГҐ Г­Г Г©Г¤ГҐГ­ ГЁГ«ГЁ ГЇГ®ГўГ°ГҐГ¦Г¤ВёГ­.", "ГЋГёГЁГЎГЄГ  Г·ГІГҐГ­ГЁГї ГґГ Г©Г«Г ", MessageBoxButtons::RetryCancel, MessageBoxIcon::Error);
 	}
 	filein.close();
 	std::ofstream fileout(CurDir + "settings.ini");
@@ -2000,12 +2000,12 @@ private: System::Void fix_errors_appy_Click(System::Object^ sender, System::Even
 	}
 	else
 	{
-		MessageBox::Show("Файл настроек не найден или повреждён.", "Ошибка чтения файла", MessageBoxButtons::RetryCancel, MessageBoxIcon::Error);
+		MessageBox::Show("Г”Г Г©Г« Г­Г Г±ГІГ°Г®ГҐГЄ Г­ГҐ Г­Г Г©Г¤ГҐГ­ ГЁГ«ГЁ ГЇГ®ГўГ°ГҐГ¦Г¤ВёГ­.", "ГЋГёГЁГЎГЄГ  Г·ГІГҐГ­ГЁГї ГґГ Г©Г«Г ", MessageBoxButtons::RetryCancel, MessageBoxIcon::Error);
 	}
 	fileout.close();
 	delete[] settings;
 	fix_errors_appy->Enabled = false;
-	//MessageBox::Show(msclr::interop::marshal_as<String^>(settings[k]), "Проверка переменной", MessageBoxButtons::OK, MessageBoxIcon::Information);
+	//MessageBox::Show(msclr::interop::marshal_as<String^>(settings[k]), "ГЏГ°Г®ГўГҐГ°ГЄГ  ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г®Г©", MessageBoxButtons::OK, MessageBoxIcon::Information);
 }
 private: System::Void fix_errors_filename_TextChanged(System::Object^ sender, System::EventArgs^ e) {
 	fix_errors_appy->Enabled = true;
@@ -2020,7 +2020,7 @@ private: System::Void fix_errors_files_ItemCheck(System::Object^ sender, System:
 	fix_errors_appy->Enabled = true;
 }
 private: System::Void fix_errors_run_Click(System::Object^ sender, System::EventArgs^ e) {
-	Consol->AppendText("\r\n" + "Запущена утилита очистки ошибок.");
+	Consol->AppendText("\r\n" + "Г‡Г ГЇГіГ№ГҐГ­Г  ГіГІГЁГ«ГЁГІГ  Г®Г·ГЁГ±ГІГЄГЁ Г®ГёГЁГЎГ®ГЄ.");
 	ProgressBarStatus(0);
 	std::string FileDir, FileDirTmp, CurSym, file_current_row = "";
 	std::ifstream filein;
@@ -2054,7 +2054,7 @@ private: System::Void fix_errors_run_Click(System::Object^ sender, System::Event
 			k = 0;
 			if (filein.is_open())
 			{
-				//Создание копии файла
+				//Г‘Г®Г§Г¤Г Г­ГЁГҐ ГЄГ®ГЇГЁГЁ ГґГ Г©Г«Г 
 				if (fix_errors_copy->Checked == true)
 				{
 					std::ifstream src(FileDir + msclr::interop::marshal_as<std::string>(fix_errors_filename->Text), std::ios::binary);
@@ -2066,7 +2066,7 @@ private: System::Void fix_errors_run_Click(System::Object^ sender, System::Event
 						}
 					}
 
-					//Добавление к имени копии файла текущую дату и время
+					//Г„Г®ГЎГ ГўГ«ГҐГ­ГЁГҐ ГЄ ГЁГ¬ГҐГ­ГЁ ГЄГ®ГЇГЁГЁ ГґГ Г©Г«Г  ГІГҐГЄГіГ№ГіГѕ Г¤Г ГІГі ГЁ ГўГ°ГҐГ¬Гї
 					time_t t = time(NULL);
 					struct tm* aTm = localtime(&t);
 					String^ current_year;
@@ -2086,7 +2086,7 @@ private: System::Void fix_errors_run_Click(System::Object^ sender, System::Event
 					if (msclr::interop::marshal_as<std::string>(current_hour).size() == 1) { current_hour = "0" + current_hour; };
 					if (msclr::interop::marshal_as<std::string>(current_min).size() == 1) { current_min = "0" + current_min; };
 					if (msclr::interop::marshal_as<std::string>(current_sec).size() == 1) { current_sec = "0" + current_sec; };
-					//Проверка на существование файла с таким же названием
+					//ГЏГ°Г®ГўГҐГ°ГЄГ  Г­Г  Г±ГіГ№ГҐГ±ГІГўГ®ГўГ Г­ГЁГҐ ГґГ Г©Г«Г  Г± ГІГ ГЄГЁГ¬ Г¦ГҐ Г­Г Г§ГўГ Г­ГЁГҐГ¬
 					int file_check_k = 1;
 					std::string file_number = "";
 					if (file_check_k < 100) { file_number = "0" + msclr::interop::marshal_as<std::string>(Convert::ToString(file_check_k)); };
@@ -2124,7 +2124,7 @@ private: System::Void fix_errors_run_Click(System::Object^ sender, System::Event
 				k_max = k;
 				filein.close();
 				filein.open(FileDir + msclr::interop::marshal_as<std::string>(fix_errors_filename->Text));
-				Consol->AppendText("\r\n" + "Обрабатывается файл " + fix_errors_files->GetItemText(fix_errors_files->Items[i_file]) + "\\" + fix_errors_filename->Text);
+				Consol->AppendText("\r\n" + "ГЋГЎГ°Г ГЎГ ГІГ»ГўГ ГҐГІГ±Гї ГґГ Г©Г« " + fix_errors_files->GetItemText(fix_errors_files->Items[i_file]) + "\\" + fix_errors_filename->Text);
 				std::string* file = new std::string[k];
 				k = 0;
 				k_errors = 0;
@@ -2169,7 +2169,7 @@ private: System::Void fix_errors_run_Click(System::Object^ sender, System::Event
 				filein.close();
 				if (k_errors == 0)
 				{
-					Consol->AppendText("\r\n" + "Ошибок не найдено.");
+					Consol->AppendText("\r\n" + "ГЋГёГЁГЎГ®ГЄ Г­ГҐ Г­Г Г©Г¤ГҐГ­Г®.");
 				}
 				else
 				{
@@ -2179,7 +2179,7 @@ private: System::Void fix_errors_run_Click(System::Object^ sender, System::Event
 						fileout << file[i] << std::endl;
 					}
 					fileout.close();
-					Consol->AppendText("\r\n" + "Исправленно " + k_errors + " ошибок.");
+					Consol->AppendText("\r\n" + "Г€Г±ГЇГ°Г ГўГ«ГҐГ­Г­Г® " + k_errors + " Г®ГёГЁГЎГ®ГЄ.");
 					k_errors_sum = k_errors_sum + k_errors;
 				}
 				delete[] file;
@@ -2187,15 +2187,15 @@ private: System::Void fix_errors_run_Click(System::Object^ sender, System::Event
 			}
 			else
 			{
-				Consol->AppendText("\r\n" + "Файл " + fix_errors_files->GetItemText(fix_errors_files->Items[i_file]) + "\\" + fix_errors_filename->Text + " не найден.");
+				Consol->AppendText("\r\n" + "Г”Г Г©Г« " + fix_errors_files->GetItemText(fix_errors_files->Items[i_file]) + "\\" + fix_errors_filename->Text + " Г­ГҐ Г­Г Г©Г¤ГҐГ­.");
 			}
 			ProgressBarStatus(100 / fix_errors_files->Items->Count * (i_file + 1));
 			begin, k, k_max, col, i1, file_size, error_size, k_errors = 0;
 			FileDir, FileDirTmp, CurSym, file_current_row = "";
 		}
 	}
-	Consol->AppendText("\r\n" + "Успешно обработанно " + k_succesful + " файлов из " + fix_errors_files->CheckedItems->Count + ".");
-	Consol->AppendText("\r\n" + "Всего исправленно " + k_errors_sum + " ошибок.");
+	Consol->AppendText("\r\n" + "Г“Г±ГЇГҐГёГ­Г® Г®ГЎГ°Г ГЎГ®ГІГ Г­Г­Г® " + k_succesful + " ГґГ Г©Г«Г®Гў ГЁГ§ " + fix_errors_files->CheckedItems->Count + ".");
+	Consol->AppendText("\r\n" + "Г‚Г±ГҐГЈГ® ГЁГ±ГЇГ°Г ГўГ«ГҐГ­Г­Г® " + k_errors_sum + " Г®ГёГЁГЎГ®ГЄ.");
 	k_errors_sum = 0;
 	ProgressBarStatus(100);
 }
@@ -2212,16 +2212,16 @@ private: System::Void fix_errors_check_all_Click(System::Object^ sender, System:
 	}
 }
 private: System::Void show_hide_journal_Click(System::Object^ sender, System::EventArgs^ e) {
-	if (show_hide_journal->Text == "Скрыть журнал")
+	if (show_hide_journal->Text == "Г‘ГЄГ°Г»ГІГј Г¦ГіГ°Г­Г Г«")
 	{
 		splitContainer1->Panel2Collapsed = true;
-		show_hide_journal->Text = "Показать журнал";
+		show_hide_journal->Text = "ГЏГ®ГЄГ Г§Г ГІГј Г¦ГіГ°Г­Г Г«";
 		journal_clear->Visible = false;
 	}
 	else
 	{
 		splitContainer1->Panel2Collapsed = false;
-		show_hide_journal->Text = "Скрыть журнал";
+		show_hide_journal->Text = "Г‘ГЄГ°Г»ГІГј Г¦ГіГ°Г­Г Г«";
 		journal_clear->Visible = true;
 	}
 }
@@ -2256,7 +2256,7 @@ private: System::Void db_client_remove_Click(System::Object^ sender, System::Eve
 	}
 }
 private: System::Void db_card_send_request_Click(System::Object^ sender, System::EventArgs^ e) {
-	Consol->AppendText("\r\n" + "Происходит выполнение операций по обработке запроса на редактирование пропуска (-ов) клиента (-ов).");
+	Consol->AppendText("\r\n" + "ГЏГ°Г®ГЁГ±ГµГ®Г¤ГЁГІ ГўГ»ГЇГ®Г«Г­ГҐГ­ГЁГҐ Г®ГЇГҐГ°Г Г¶ГЁГ© ГЇГ® Г®ГЎГ°Г ГЎГ®ГІГЄГҐ Г§Г ГЇГ°Г®Г±Г  Г­Г  Г°ГҐГ¤Г ГЄГІГЁГ°Г®ГўГ Г­ГЁГҐ ГЇГ°Г®ГЇГіГ±ГЄГ  (-Г®Гў) ГЄГ«ГЁГҐГ­ГІГ  (-Г®Гў).");
 	wchar_t CurDirExe[MAX_PATH];
 	GetModuleFileName(GetModuleHandle(0), CurDirExe, MAX_PATH);
 	String^ CurDirExeSTR1 = msclr::interop::marshal_as<String^>(CurDirExe);
@@ -2294,7 +2294,7 @@ private: System::Void db_card_send_request_Click(System::Object^ sender, System:
 	}
 	else
 	{
-		MessageBox::Show("Файл настроек не найден или повреждён.", "Ошибка чтения файла", MessageBoxButtons::RetryCancel, MessageBoxIcon::Error);
+		MessageBox::Show("Г”Г Г©Г« Г­Г Г±ГІГ°Г®ГҐГЄ Г­ГҐ Г­Г Г©Г¤ГҐГ­ ГЁГ«ГЁ ГЇГ®ГўГ°ГҐГ¦Г¤ВёГ­.", "ГЋГёГЁГЎГЄГ  Г·ГІГҐГ­ГЁГї ГґГ Г©Г«Г ", MessageBoxButtons::RetryCancel, MessageBoxIcon::Error);
 	}
 	fileout.close();
 	try
@@ -2314,13 +2314,13 @@ private: System::Void db_card_send_request_Click(System::Object^ sender, System:
 				begin = i;
 			}
 		}
-		MessageBox::Show("Ошибка запуска BAT файла\r\n\r\nЭто может возникнуть по одной из следющих причин:\r\n" +
-			"\r\n" + " 1. Вы отменини запуск от имени администратора." +
-			"\r\n" + " 2. Файл по пути " + msclr::interop::marshal_as<String^>(CurDir) + "\send query.bat.lnk" + " отсутствует." +
-			"\r\n" + " 3. Файл повреждён."
-			, "Ошибка запуска BAT файла", MessageBoxButtons::OK, MessageBoxIcon::Error);
+		MessageBox::Show("ГЋГёГЁГЎГЄГ  Г§Г ГЇГіГ±ГЄГ  BAT ГґГ Г©Г«Г \r\n\r\nГќГІГ® Г¬Г®Г¦ГҐГІ ГўГ®Г§Г­ГЁГЄГ­ГіГІГј ГЇГ® Г®Г¤Г­Г®Г© ГЁГ§ Г±Г«ГҐГ¤ГѕГ№ГЁГµ ГЇГ°ГЁГ·ГЁГ­:\r\n" +
+			"\r\n" + " 1. Г‚Г» Г®ГІГ¬ГҐГ­ГЁГ­ГЁ Г§Г ГЇГіГ±ГЄ Г®ГІ ГЁГ¬ГҐГ­ГЁ Г Г¤Г¬ГЁГ­ГЁГ±ГІГ°Г ГІГ®Г°Г ." +
+			"\r\n" + " 2. Г”Г Г©Г« ГЇГ® ГЇГіГІГЁ " + msclr::interop::marshal_as<String^>(CurDir) + "\send query.bat.lnk" + " Г®ГІГ±ГіГІГ±ГІГўГіГҐГІ." +
+			"\r\n" + " 3. Г”Г Г©Г« ГЇГ®ГўГ°ГҐГ¦Г¤ВёГ­."
+			, "ГЋГёГЁГЎГЄГ  Г§Г ГЇГіГ±ГЄГ  BAT ГґГ Г©Г«Г ", MessageBoxButtons::OK, MessageBoxIcon::Error);
 	}
-	Consol->AppendText("\r\n" + "Операции для обработки запроса на редактирование пропуска (-ов) клиента (-ов) завершены.");
+	Consol->AppendText("\r\n" + "ГЋГЇГҐГ°Г Г¶ГЁГЁ Г¤Г«Гї Г®ГЎГ°Г ГЎГ®ГІГЄГЁ Г§Г ГЇГ°Г®Г±Г  Г­Г  Г°ГҐГ¤Г ГЄГІГЁГ°Г®ГўГ Г­ГЁГҐ ГЇГ°Г®ГЇГіГ±ГЄГ  (-Г®Гў) ГЄГ«ГЁГҐГ­ГІГ  (-Г®Гў) Г§Г ГўГҐГ°ГёГҐГ­Г».");
 }
 private: System::Void db_uncheck_all_Click(System::Object^ sender, System::EventArgs^ e) {
 	for (int i = 0; i < db_dataGridView_paths->Rows->Count; i++)
@@ -2393,7 +2393,7 @@ private: System::Void db_appy_Click(System::Object^ sender, System::EventArgs^ e
 	}
 	else
 	{
-		MessageBox::Show("Файл настроек не найден или повреждён.", "Ошибка чтения файла", MessageBoxButtons::RetryCancel, MessageBoxIcon::Error);
+		MessageBox::Show("Г”Г Г©Г« Г­Г Г±ГІГ°Г®ГҐГЄ Г­ГҐ Г­Г Г©Г¤ГҐГ­ ГЁГ«ГЁ ГЇГ®ГўГ°ГҐГ¦Г¤ВёГ­.", "ГЋГёГЁГЎГЄГ  Г·ГІГҐГ­ГЁГї ГґГ Г©Г«Г ", MessageBoxButtons::RetryCancel, MessageBoxIcon::Error);
 	}
 	filein.close();
 	filein.open(CurDir + "settings.ini");
@@ -2446,7 +2446,7 @@ private: System::Void db_appy_Click(System::Object^ sender, System::EventArgs^ e
 	}
 	else
 	{
-		MessageBox::Show("Файл настроек не найден или повреждён.", "Ошибка чтения файла", MessageBoxButtons::RetryCancel, MessageBoxIcon::Error);
+		MessageBox::Show("Г”Г Г©Г« Г­Г Г±ГІГ°Г®ГҐГЄ Г­ГҐ Г­Г Г©Г¤ГҐГ­ ГЁГ«ГЁ ГЇГ®ГўГ°ГҐГ¦Г¤ВёГ­.", "ГЋГёГЁГЎГЄГ  Г·ГІГҐГ­ГЁГї ГґГ Г©Г«Г ", MessageBoxButtons::RetryCancel, MessageBoxIcon::Error);
 	}
 	filein.close();
 	std::ofstream fileout(CurDir + "settings.ini");
@@ -2459,14 +2459,14 @@ private: System::Void db_appy_Click(System::Object^ sender, System::EventArgs^ e
 	}
 	else
 	{
-		MessageBox::Show("Файл настроек не найден или повреждён.", "Ошибка чтения файла", MessageBoxButtons::RetryCancel, MessageBoxIcon::Error);
+		MessageBox::Show("Г”Г Г©Г« Г­Г Г±ГІГ°Г®ГҐГЄ Г­ГҐ Г­Г Г©Г¤ГҐГ­ ГЁГ«ГЁ ГЇГ®ГўГ°ГҐГ¦Г¤ВёГ­.", "ГЋГёГЁГЎГЄГ  Г·ГІГҐГ­ГЁГї ГґГ Г©Г«Г ", MessageBoxButtons::RetryCancel, MessageBoxIcon::Error);
 	}
 	fileout.close();
 	delete[] settings;
 	db_appy->Enabled = false;
 }
 private: System::Void db_client_send_request_Click(System::Object^ sender, System::EventArgs^ e) {
-	Consol->AppendText("\r\n" + "Происходит выполнение операций по обработке запроса на редактирование табельного (-ых) номера (-ов).");
+	Consol->AppendText("\r\n" + "ГЏГ°Г®ГЁГ±ГµГ®Г¤ГЁГІ ГўГ»ГЇГ®Г«Г­ГҐГ­ГЁГҐ Г®ГЇГҐГ°Г Г¶ГЁГ© ГЇГ® Г®ГЎГ°Г ГЎГ®ГІГЄГҐ Г§Г ГЇГ°Г®Г±Г  Г­Г  Г°ГҐГ¤Г ГЄГІГЁГ°Г®ГўГ Г­ГЁГҐ ГІГ ГЎГҐГ«ГјГ­Г®ГЈГ® (-Г»Гµ) Г­Г®Г¬ГҐГ°Г  (-Г®Гў).");
 	wchar_t CurDirExe[MAX_PATH];
 	GetModuleFileName(GetModuleHandle(0), CurDirExe, MAX_PATH);
 	String^ CurDirExeSTR1 = msclr::interop::marshal_as<String^>(CurDirExe);
@@ -2505,7 +2505,7 @@ private: System::Void db_client_send_request_Click(System::Object^ sender, Syste
 	}
 	else
 	{
-		MessageBox::Show("Файл настроек не найден или повреждён.", "Ошибка чтения файла", MessageBoxButtons::RetryCancel, MessageBoxIcon::Error);
+		MessageBox::Show("Г”Г Г©Г« Г­Г Г±ГІГ°Г®ГҐГЄ Г­ГҐ Г­Г Г©Г¤ГҐГ­ ГЁГ«ГЁ ГЇГ®ГўГ°ГҐГ¦Г¤ВёГ­.", "ГЋГёГЁГЎГЄГ  Г·ГІГҐГ­ГЁГї ГґГ Г©Г«Г ", MessageBoxButtons::RetryCancel, MessageBoxIcon::Error);
 	}
 	fileout.close();
 	try
@@ -2525,19 +2525,19 @@ private: System::Void db_client_send_request_Click(System::Object^ sender, Syste
 				begin = i;
 			}
 		}
-		MessageBox::Show("Ошибка запуска BAT файла\r\n\r\nЭто может возникнуть по одной из следющих причин:\r\n" +
-			"\r\n" + " 1. Вы отменини запуск от имени администратора." +
-			"\r\n" + " 2. Файл по пути " + msclr::interop::marshal_as<String^>(CurDir) + "\send query.bat.lnk" + " отсутствует." +
-			"\r\n" + " 3. Файл повреждён."
-			, "Ошибка запуска BAT файла", MessageBoxButtons::OK, MessageBoxIcon::Error);
+		MessageBox::Show("ГЋГёГЁГЎГЄГ  Г§Г ГЇГіГ±ГЄГ  BAT ГґГ Г©Г«Г \r\n\r\nГќГІГ® Г¬Г®Г¦ГҐГІ ГўГ®Г§Г­ГЁГЄГ­ГіГІГј ГЇГ® Г®Г¤Г­Г®Г© ГЁГ§ Г±Г«ГҐГ¤ГѕГ№ГЁГµ ГЇГ°ГЁГ·ГЁГ­:\r\n" +
+			"\r\n" + " 1. Г‚Г» Г®ГІГ¬ГҐГ­ГЁГ­ГЁ Г§Г ГЇГіГ±ГЄ Г®ГІ ГЁГ¬ГҐГ­ГЁ Г Г¤Г¬ГЁГ­ГЁГ±ГІГ°Г ГІГ®Г°Г ." +
+			"\r\n" + " 2. Г”Г Г©Г« ГЇГ® ГЇГіГІГЁ " + msclr::interop::marshal_as<String^>(CurDir) + "\send query.bat.lnk" + " Г®ГІГ±ГіГІГ±ГІГўГіГҐГІ." +
+			"\r\n" + " 3. Г”Г Г©Г« ГЇГ®ГўГ°ГҐГ¦Г¤ВёГ­."
+			, "ГЋГёГЁГЎГЄГ  Г§Г ГЇГіГ±ГЄГ  BAT ГґГ Г©Г«Г ", MessageBoxButtons::OK, MessageBoxIcon::Error);
 	}
-	Consol->AppendText("\r\n" + "Операции для обработки запроса на редактирование табельного (-ых) номера (-ов) завершены.");
+	Consol->AppendText("\r\n" + "ГЋГЇГҐГ°Г Г¶ГЁГЁ Г¤Г«Гї Г®ГЎГ°Г ГЎГ®ГІГЄГЁ Г§Г ГЇГ°Г®Г±Г  Г­Г  Г°ГҐГ¤Г ГЄГІГЁГ°Г®ГўГ Г­ГЁГҐ ГІГ ГЎГҐГ«ГјГ­Г®ГЈГ® (-Г»Гµ) Г­Г®Г¬ГҐГ°Г  (-Г®Гў) Г§Г ГўГҐГ°ГёГҐГ­Г».");
 }
 private: System::Void db_dataGridView_paths_CellEndEdit(System::Object^ sender, System::Windows::Forms::DataGridViewCellEventArgs^ e) {
 	db_appy->Enabled = true;
 }
 private: System::Void db_card_send_request_client_Click(System::Object^ sender, System::EventArgs^ e) {
-	Consol->AppendText("\r\n" + "Происходит выполнение операций по обработке запроса на получение сведений о клиенте (-ах).");
+	Consol->AppendText("\r\n" + "ГЏГ°Г®ГЁГ±ГµГ®Г¤ГЁГІ ГўГ»ГЇГ®Г«Г­ГҐГ­ГЁГҐ Г®ГЇГҐГ°Г Г¶ГЁГ© ГЇГ® Г®ГЎГ°Г ГЎГ®ГІГЄГҐ Г§Г ГЇГ°Г®Г±Г  Г­Г  ГЇГ®Г«ГіГ·ГҐГ­ГЁГҐ Г±ГўГҐГ¤ГҐГ­ГЁГ© Г® ГЄГ«ГЁГҐГ­ГІГҐ (-Г Гµ).");
 	wchar_t CurDirExe[MAX_PATH];
 	GetModuleFileName(GetModuleHandle(0), CurDirExe, MAX_PATH);
 	String^ CurDirExeSTR1 = msclr::interop::marshal_as<String^>(CurDirExe);
@@ -2577,7 +2577,7 @@ private: System::Void db_card_send_request_client_Click(System::Object^ sender, 
 	}
 	else
 	{
-		MessageBox::Show("Файл настроек не найден или повреждён.", "Ошибка чтения файла", MessageBoxButtons::RetryCancel, MessageBoxIcon::Error);
+		MessageBox::Show("Г”Г Г©Г« Г­Г Г±ГІГ°Г®ГҐГЄ Г­ГҐ Г­Г Г©Г¤ГҐГ­ ГЁГ«ГЁ ГЇГ®ГўГ°ГҐГ¦Г¤ВёГ­.", "ГЋГёГЁГЎГЄГ  Г·ГІГҐГ­ГЁГї ГґГ Г©Г«Г ", MessageBoxButtons::RetryCancel, MessageBoxIcon::Error);
 	}
 	fileout.close();
 	try
@@ -2597,88 +2597,88 @@ private: System::Void db_card_send_request_client_Click(System::Object^ sender, 
 				begin = i;
 			}
 		}
-		MessageBox::Show("Ошибка запуска BAT файла\r\n\r\nЭто может возникнуть по одной из следющих причин:\r\n" +
-			"\r\n" + " 1. Вы отменини запуск от имени администратора." +
-			"\r\n" + " 2. Файл по пути " + msclr::interop::marshal_as<String^>(CurDir) + "\send query.bat.lnk" + " отсутствует." +
-			"\r\n" + " 3. Файл повреждён."
-			, "Ошибка запуска BAT файла", MessageBoxButtons::OK, MessageBoxIcon::Error);
+		MessageBox::Show("ГЋГёГЁГЎГЄГ  Г§Г ГЇГіГ±ГЄГ  BAT ГґГ Г©Г«Г \r\n\r\nГќГІГ® Г¬Г®Г¦ГҐГІ ГўГ®Г§Г­ГЁГЄГ­ГіГІГј ГЇГ® Г®Г¤Г­Г®Г© ГЁГ§ Г±Г«ГҐГ¤ГѕГ№ГЁГµ ГЇГ°ГЁГ·ГЁГ­:\r\n" +
+			"\r\n" + " 1. Г‚Г» Г®ГІГ¬ГҐГ­ГЁГ­ГЁ Г§Г ГЇГіГ±ГЄ Г®ГІ ГЁГ¬ГҐГ­ГЁ Г Г¤Г¬ГЁГ­ГЁГ±ГІГ°Г ГІГ®Г°Г ." +
+			"\r\n" + " 2. Г”Г Г©Г« ГЇГ® ГЇГіГІГЁ " + msclr::interop::marshal_as<String^>(CurDir) + "\send query.bat.lnk" + " Г®ГІГ±ГіГІГ±ГІГўГіГҐГІ." +
+			"\r\n" + " 3. Г”Г Г©Г« ГЇГ®ГўГ°ГҐГ¦Г¤ВёГ­."
+			, "ГЋГёГЁГЎГЄГ  Г§Г ГЇГіГ±ГЄГ  BAT ГґГ Г©Г«Г ", MessageBoxButtons::OK, MessageBoxIcon::Error);
 	}
-	//Consol->AppendText("\r\n" + "Операции для обработки запроса на получение сведений о клиенте (-ах) завершены.");
+	//Consol->AppendText("\r\n" + "ГЋГЇГҐГ°Г Г¶ГЁГЁ Г¤Г«Гї Г®ГЎГ°Г ГЎГ®ГІГЄГЁ Г§Г ГЇГ°Г®Г±Г  Г­Г  ГЇГ®Г«ГіГ·ГҐГ­ГЁГҐ Г±ГўГҐГ¤ГҐГ­ГЁГ© Г® ГЄГ«ГЁГҐГ­ГІГҐ (-Г Гµ) Г§Г ГўГҐГ°ГёГҐГ­Г».");
 }
 private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
-	System::Diagnostics::Process::Start("F:\\input для добавления и блокирования клиентов\\copy in all stantion.bat");
+	System::Diagnostics::Process::Start("F:\\input Г¤Г«Гї Г¤Г®ГЎГ ГўГ«ГҐГ­ГЁГї ГЁ ГЎГ«Г®ГЄГЁГ°Г®ГўГ Г­ГЁГї ГЄГ«ГЁГҐГ­ГІГ®Гў\\copy in all stantion.bat");
 }
 private: System::Void button11_Click(System::Object^ sender, System::EventArgs^ e) {
-	System::Diagnostics::Process::Start("F:\\input для добавления и блокирования клиентов\\copy in 1 - Дружба.bat");
+	System::Diagnostics::Process::Start("F:\\input Г¤Г«Гї Г¤Г®ГЎГ ГўГ«ГҐГ­ГЁГї ГЁ ГЎГ«Г®ГЄГЁГ°Г®ГўГ Г­ГЁГї ГЄГ«ГЁГҐГ­ГІГ®Гў\\copy in 1 - Г„Г°ГіГ¦ГЎГ .bat");
 }
 private: System::Void button10_Click(System::Object^ sender, System::EventArgs^ e) {
-	System::Diagnostics::Process::Start("F:\\input для добавления и блокирования клиентов\\copy in 2 - Северянка.bat");
+	System::Diagnostics::Process::Start("F:\\input Г¤Г«Гї Г¤Г®ГЎГ ГўГ«ГҐГ­ГЁГї ГЁ ГЎГ«Г®ГЄГЁГ°Г®ГўГ Г­ГЁГї ГЄГ«ГЁГҐГ­ГІГ®Гў\\copy in 2 - Г‘ГҐГўГҐГ°ГїГ­ГЄГ .bat");
 }
 private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e) {
-	System::Diagnostics::Process::Start("F:\\input для добавления и блокирования клиентов\\copy in 3 - б. Северянка.bat");
+	System::Diagnostics::Process::Start("F:\\input Г¤Г«Гї Г¤Г®ГЎГ ГўГ«ГҐГ­ГЁГї ГЁ ГЎГ«Г®ГЄГЁГ°Г®ГўГ Г­ГЁГї ГЄГ«ГЁГҐГ­ГІГ®Гў\\copy in 3 - ГЎ. Г‘ГҐГўГҐГ°ГїГ­ГЄГ .bat");
 }
 private: System::Void button3_Click(System::Object^ sender, System::EventArgs^ e) {
-	System::Diagnostics::Process::Start("F:\\input для добавления и блокирования клиентов\\copy in 4 - Магазин.bat");
+	System::Diagnostics::Process::Start("F:\\input Г¤Г«Гї Г¤Г®ГЎГ ГўГ«ГҐГ­ГЁГї ГЁ ГЎГ«Г®ГЄГЁГ°Г®ГўГ Г­ГЁГї ГЄГ«ГЁГҐГ­ГІГ®Гў\\copy in 4 - ГЊГ ГЈГ Г§ГЁГ­.bat");
 }
 private: System::Void button4_Click(System::Object^ sender, System::EventArgs^ e) {
-	System::Diagnostics::Process::Start("F:\\input для добавления и блокирования клиентов\\copy in 5 - МП1.bat");
+	System::Diagnostics::Process::Start("F:\\input Г¤Г«Гї Г¤Г®ГЎГ ГўГ«ГҐГ­ГЁГї ГЁ ГЎГ«Г®ГЄГЁГ°Г®ГўГ Г­ГЁГї ГЄГ«ГЁГҐГ­ГІГ®Гў\\copy in 5 - ГЊГЏ1.bat");
 }
 private: System::Void button5_Click(System::Object^ sender, System::EventArgs^ e) {
-	System::Diagnostics::Process::Start("F:\\input для добавления и блокирования клиентов\\copy in 6 - КБП.bat");
+	System::Diagnostics::Process::Start("F:\\input Г¤Г«Гї Г¤Г®ГЎГ ГўГ«ГҐГ­ГЁГї ГЁ ГЎГ«Г®ГЄГЁГ°Г®ГўГ Г­ГЁГї ГЄГ«ГЁГҐГ­ГІГ®Гў\\copy in 6 - ГЉГЃГЏ.bat");
 }
 private: System::Void button6_Click(System::Object^ sender, System::EventArgs^ e) {
-	System::Diagnostics::Process::Start("F:\\input для добавления и блокирования клиентов\\copy in 7 - Сударушка.bat");
+	System::Diagnostics::Process::Start("F:\\input Г¤Г«Гї Г¤Г®ГЎГ ГўГ«ГҐГ­ГЁГї ГЁ ГЎГ«Г®ГЄГЁГ°Г®ГўГ Г­ГЁГї ГЄГ«ГЁГҐГ­ГІГ®Гў\\copy in 7 - Г‘ГіГ¤Г Г°ГіГёГЄГ .bat");
 }
 private: System::Void button7_Click(System::Object^ sender, System::EventArgs^ e) {
-	System::Diagnostics::Process::Start("F:\\input для добавления и блокирования клиентов\\copy in 8 - Ёлочка.bat");
+	System::Diagnostics::Process::Start("F:\\input Г¤Г«Гї Г¤Г®ГЎГ ГўГ«ГҐГ­ГЁГї ГЁ ГЎГ«Г®ГЄГЁГ°Г®ГўГ Г­ГЁГї ГЄГ«ГЁГҐГ­ГІГ®Гў\\copy in 8 - ВЁГ«Г®Г·ГЄГ .bat");
 }
 private: System::Void button8_Click(System::Object^ sender, System::EventArgs^ e) {
-	System::Diagnostics::Process::Start("F:\\input для добавления и блокирования клиентов\\copy in 9 - РМП.bat");
+	System::Diagnostics::Process::Start("F:\\input Г¤Г«Гї Г¤Г®ГЎГ ГўГ«ГҐГ­ГЁГї ГЁ ГЎГ«Г®ГЄГЁГ°Г®ГўГ Г­ГЁГї ГЄГ«ГЁГҐГ­ГІГ®Гў\\copy in 9 - ГђГЊГЏ.bat");
 }
 private: System::Void button9_Click(System::Object^ sender, System::EventArgs^ e) {
-	System::Diagnostics::Process::Start("F:\\input для добавления и блокирования клиентов\\copy in 10 - ТЭЦ.bat");
+	System::Diagnostics::Process::Start("F:\\input Г¤Г«Гї Г¤Г®ГЎГ ГўГ«ГҐГ­ГЁГї ГЁ ГЎГ«Г®ГЄГЁГ°Г®ГўГ Г­ГЁГї ГЄГ«ГЁГҐГ­ГІГ®Гў\\copy in 10 - Г’ГќГ–.bat");
 }
 private: System::Void button13_Click(System::Object^ sender, System::EventArgs^ e) {
-	System::Diagnostics::Process::Start("F:\\input для добавления и блокирования клиентов\\copy in 11 - БДМ7.bat");
+	System::Diagnostics::Process::Start("F:\\input Г¤Г«Гї Г¤Г®ГЎГ ГўГ«ГҐГ­ГЁГї ГЁ ГЎГ«Г®ГЄГЁГ°Г®ГўГ Г­ГЁГї ГЄГ«ГЁГҐГ­ГІГ®Гў\\copy in 11 - ГЃГ„ГЊ7.bat");
 }
 private: System::Void button24_Click(System::Object^ sender, System::EventArgs^ e) {
-	System::Diagnostics::Process::Start("F:\\input для обновления цен и товаров\\copy in all stantion.bat");
+	System::Diagnostics::Process::Start("F:\\input Г¤Г«Гї Г®ГЎГ­Г®ГўГ«ГҐГ­ГЁГї Г¶ГҐГ­ ГЁ ГІГ®ГўГ Г°Г®Гў\\copy in all stantion.bat");
 }
 private: System::Void button14_Click(System::Object^ sender, System::EventArgs^ e) {
-	System::Diagnostics::Process::Start("F:\\input для обновления цен и товаров\\copy in 1 - Дружба.bat");
+	System::Diagnostics::Process::Start("F:\\input Г¤Г«Гї Г®ГЎГ­Г®ГўГ«ГҐГ­ГЁГї Г¶ГҐГ­ ГЁ ГІГ®ГўГ Г°Г®Гў\\copy in 1 - Г„Г°ГіГ¦ГЎГ .bat");
 }
 private: System::Void button15_Click(System::Object^ sender, System::EventArgs^ e) {
-	System::Diagnostics::Process::Start("F:\\input для обновления цен и товаров\\copy in 2 - Северянка.bat");
+	System::Diagnostics::Process::Start("F:\\input Г¤Г«Гї Г®ГЎГ­Г®ГўГ«ГҐГ­ГЁГї Г¶ГҐГ­ ГЁ ГІГ®ГўГ Г°Г®Гў\\copy in 2 - Г‘ГҐГўГҐГ°ГїГ­ГЄГ .bat");
 }
 private: System::Void button23_Click(System::Object^ sender, System::EventArgs^ e) {
-	System::Diagnostics::Process::Start("F:\\input для обновления цен и товаров\\copy in 3 - б. Северянка.bat");
+	System::Diagnostics::Process::Start("F:\\input Г¤Г«Гї Г®ГЎГ­Г®ГўГ«ГҐГ­ГЁГї Г¶ГҐГ­ ГЁ ГІГ®ГўГ Г°Г®Гў\\copy in 3 - ГЎ. Г‘ГҐГўГҐГ°ГїГ­ГЄГ .bat");
 }
 private: System::Void button22_Click(System::Object^ sender, System::EventArgs^ e) {
-	System::Diagnostics::Process::Start("F:\\input для обновления цен и товаров\\copy in 4 - Магазин.bat");
+	System::Diagnostics::Process::Start("F:\\input Г¤Г«Гї Г®ГЎГ­Г®ГўГ«ГҐГ­ГЁГї Г¶ГҐГ­ ГЁ ГІГ®ГўГ Г°Г®Гў\\copy in 4 - ГЊГ ГЈГ Г§ГЁГ­.bat");
 }
 private: System::Void button21_Click(System::Object^ sender, System::EventArgs^ e) {
-	System::Diagnostics::Process::Start("F:\\input для обновления цен и товаров\\copy in 5 - МП1.bat");
+	System::Diagnostics::Process::Start("F:\\input Г¤Г«Гї Г®ГЎГ­Г®ГўГ«ГҐГ­ГЁГї Г¶ГҐГ­ ГЁ ГІГ®ГўГ Г°Г®Гў\\copy in 5 - ГЊГЏ1.bat");
 }
 private: System::Void button20_Click(System::Object^ sender, System::EventArgs^ e) {
-	System::Diagnostics::Process::Start("F:\\input для обновления цен и товаров\\copy in 6 - КБП.bat");
+	System::Diagnostics::Process::Start("F:\\input Г¤Г«Гї Г®ГЎГ­Г®ГўГ«ГҐГ­ГЁГї Г¶ГҐГ­ ГЁ ГІГ®ГўГ Г°Г®Гў\\copy in 6 - ГЉГЃГЏ.bat");
 }
 private: System::Void button19_Click(System::Object^ sender, System::EventArgs^ e) {
-	System::Diagnostics::Process::Start("F:\\input для обновления цен и товаров\\copy in 7 - Сударушка.bat");
+	System::Diagnostics::Process::Start("F:\\input Г¤Г«Гї Г®ГЎГ­Г®ГўГ«ГҐГ­ГЁГї Г¶ГҐГ­ ГЁ ГІГ®ГўГ Г°Г®Гў\\copy in 7 - Г‘ГіГ¤Г Г°ГіГёГЄГ .bat");
 }
 private: System::Void button18_Click(System::Object^ sender, System::EventArgs^ e) {
-	System::Diagnostics::Process::Start("F:\\input для обновления цен и товаров\\copy in 8 - Ёлочка.bat");
+	System::Diagnostics::Process::Start("F:\\input Г¤Г«Гї Г®ГЎГ­Г®ГўГ«ГҐГ­ГЁГї Г¶ГҐГ­ ГЁ ГІГ®ГўГ Г°Г®Гў\\copy in 8 - ВЁГ«Г®Г·ГЄГ .bat");
 }
 private: System::Void button17_Click(System::Object^ sender, System::EventArgs^ e) {
-	System::Diagnostics::Process::Start("F:\\input для обновления цен и товаров\\copy in 9 - РМП.bat");
+	System::Diagnostics::Process::Start("F:\\input Г¤Г«Гї Г®ГЎГ­Г®ГўГ«ГҐГ­ГЁГї Г¶ГҐГ­ ГЁ ГІГ®ГўГ Г°Г®Гў\\copy in 9 - ГђГЊГЏ.bat");
 }
 private: System::Void button16_Click(System::Object^ sender, System::EventArgs^ e) {
-	System::Diagnostics::Process::Start("F:\\input для обновления цен и товаров\\copy in 10 - ТЭЦ.bat");
+	System::Diagnostics::Process::Start("F:\\input Г¤Г«Гї Г®ГЎГ­Г®ГўГ«ГҐГ­ГЁГї Г¶ГҐГ­ ГЁ ГІГ®ГўГ Г°Г®Гў\\copy in 10 - Г’ГќГ–.bat");
 }
 private: System::Void button12_Click(System::Object^ sender, System::EventArgs^ e) {
-	System::Diagnostics::Process::Start("F:\\input для обновления цен и товаров\\copy in 11 - БДМ7.bat");
+	System::Diagnostics::Process::Start("F:\\input Г¤Г«Гї Г®ГЎГ­Г®ГўГ«ГҐГ­ГЁГї Г¶ГҐГ­ ГЁ ГІГ®ГўГ Г°Г®Гў\\copy in 11 - ГЃГ„ГЊ7.bat");
 }
 private: System::Void button25_Click(System::Object^ sender, System::EventArgs^ e) {
-	System::Diagnostics::Process::Start("F:\\input для обновления цен и товаров\\cut from server.bat");
+	System::Diagnostics::Process::Start("F:\\input Г¤Г«Гї Г®ГЎГ­Г®ГўГ«ГҐГ­ГЁГї Г¶ГҐГ­ ГЁ ГІГ®ГўГ Г°Г®Гў\\cut from server.bat");
 }
 };
 }
