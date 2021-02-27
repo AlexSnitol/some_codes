@@ -1,0 +1,532 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+attestation_practice
+</name>
+</assembly>
+<members>
+<member name="P:attestation_practice.My.Resources.Resources.ResourceManager">
+	<summary>
+  Возвращает кэшированный экземпляр ResourceManager, использованный этим классом.
+</summary>
+</member><member name="P:attestation_practice.My.Resources.Resources.Culture">
+	<summary>
+  Перезаписывает свойство CurrentUICulture текущего потока для всех
+  обращений к ресурсу с помощью этого класса ресурса со строгой типизацией.
+</summary>
+</member><member name="P:attestation_practice.My.Resources.Resources.frm_button_Accept">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:attestation_practice.My.Resources.Resources.frm_button_add_row">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:attestation_practice.My.Resources.Resources.frm_button_add_row_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:attestation_practice.My.Resources.Resources.frm_button_Cancel">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:attestation_practice.My.Resources.Resources.frm_button_Export_to_Word">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:attestation_practice.My.Resources.Resources.frm_button_font">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:attestation_practice.My.Resources.Resources.frm_button_generate">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:attestation_practice.My.Resources.Resources.frm_button_No">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:attestation_practice.My.Resources.Resources.frm_button_OK">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:attestation_practice.My.Resources.Resources.frm_button_open_for_edit">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:attestation_practice.My.Resources.Resources.frm_button_pagesetup">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:attestation_practice.My.Resources.Resources.frm_button_print">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:attestation_practice.My.Resources.Resources.frm_button_printpreview">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:attestation_practice.My.Resources.Resources.frm_button_reform">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:attestation_practice.My.Resources.Resources.frm_button_refresh">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:attestation_practice.My.Resources.Resources.frm_button_reload">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:attestation_practice.My.Resources.Resources.frm_button_Yes">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:attestation_practice.My.Resources.Resources.frm_login_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:attestation_practice.My.Resources.Resources.frm_login_1_button">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:attestation_practice.My.Resources.Resources.frm_login_2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:attestation_practice.My.Resources.Resources.frm_login_2_button">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:attestation_practice.My.Resources.Resources.frm_login_3">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:attestation_practice.My.Resources.Resources.frm_login_3_button">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:attestation_practice.My.Resources.Resources.frm_login_4">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:attestation_practice.My.Resources.Resources.frm_login_4_button">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:attestation_practice.My.Resources.Resources.frm_login_5">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:attestation_practice.My.Resources.Resources.frm_login_5_button">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:attestation_practice.My.Resources.Resources.frm_login_pass_hide">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:attestation_practice.My.Resources.Resources.frm_login_pass_show">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:attestation_practice.My.Resources.Resources.icons8_about_90">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:attestation_practice.My.Resources.Resources.icons8_conversion_26_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:attestation_practice.My.Resources.Resources.icons8_eye_48">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:attestation_practice.My.Resources.Resources.icons8_hide_48">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:attestation_practice.My.Resources.Resources.icons8_link_15">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:attestation_practice.My.Resources.Resources.icons8_link_15_deactive">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:attestation_practice.My.Resources.Resources.loading_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:attestation_practice.My.Resources.Resources.warning">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:attestation_practice.My.Resources.Resources.warning_v2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:attestation_practice.My.Resources.Resources">
+	<summary>
+  Класс ресурса со строгой типизацией для поиска локализованных строк и т.д.
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSet.tbl_accountDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSet.tbl_journal_ratingDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSet.tbl_orgDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSet.tbl_otv_lico_orgDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSet.tbl_ruckovod_practikiDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSet.tbl_specDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSet.tbl_stat_svedDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSet.tbl_studDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSet.tbl_uch_practikaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSet.tbl_var_beginDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSet.tbl_var_narekanDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSet.tbl_var_osnovDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSet.tbl_var_rabotDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSet.tbl_var_svodDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSet.tbl_vid_rabotDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSet.qr_journal_ratingDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSet.qr_otv_lico_orgDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSet.qr_ruckovod_practikiDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSet.qr_studDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSet.qr_uch_practikaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSet.tbl_accountRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSet.tbl_journal_ratingRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSet.tbl_orgRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSet.tbl_otv_lico_orgRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSet.tbl_ruckovod_practikiRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSet.tbl_specRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSet.tbl_stat_svedRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSet.tbl_studRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSet.tbl_uch_practikaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSet.tbl_var_beginRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSet.tbl_var_narekanRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSet.tbl_var_osnovRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSet.tbl_var_rabotRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSet.tbl_var_svodRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSet.tbl_vid_rabotRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSet.qr_journal_ratingRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSet.qr_otv_lico_orgRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSet.qr_ruckovod_practikiRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSet.qr_studRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSet.qr_uch_practikaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSet.tbl_accountRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSet.tbl_journal_ratingRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSet.tbl_orgRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSet.tbl_otv_lico_orgRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSet.tbl_ruckovod_practikiRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSet.tbl_specRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSet.tbl_stat_svedRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSet.tbl_studRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSet.tbl_uch_practikaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSet.tbl_var_beginRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSet.tbl_var_narekanRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSet.tbl_var_osnovRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSet.tbl_var_rabotRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSet.tbl_var_svodRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSet.tbl_vid_rabotRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSet.qr_journal_ratingRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSet.qr_otv_lico_orgRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSet.qr_ruckovod_practikiRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSet.qr_studRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSet.qr_uch_practikaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSetTableAdapters.tbl_accountTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSetTableAdapters.tbl_journal_ratingTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSetTableAdapters.tbl_orgTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSetTableAdapters.tbl_otv_lico_orgTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSetTableAdapters.tbl_ruckovod_practikiTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSetTableAdapters.tbl_specTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSetTableAdapters.tbl_stat_svedTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSetTableAdapters.tbl_studTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSetTableAdapters.tbl_uch_practikaTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSetTableAdapters.tbl_var_beginTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSetTableAdapters.tbl_var_narekanTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSetTableAdapters.tbl_var_osnovTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSetTableAdapters.tbl_var_rabotTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSetTableAdapters.tbl_var_svodTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSetTableAdapters.tbl_vid_rabotTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSetTableAdapters.qr_journal_ratingTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSetTableAdapters.qr_otv_lico_orgTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSetTableAdapters.qr_ruckovod_practikiTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSetTableAdapters.qr_studTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSetTableAdapters.qr_uch_practikaTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:attestation_practice.attestation_practiceDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(attestation_practice.attestation_practiceDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:attestation_practice.attestation_practiceDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(attestation_practice.attestation_practiceDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:attestation_practice.attestation_practiceDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(attestation_practice.attestation_practiceDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:attestation_practice.attestation_practiceDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:attestation_practice.attestation_practiceDataSetTableAdapters.TableAdapterManager.UpdateAll(attestation_practice.attestation_practiceDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:attestation_practice.attestation_practiceDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>
